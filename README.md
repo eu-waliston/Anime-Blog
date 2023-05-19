@@ -1,4 +1,4 @@
 # React Blog 
-### An blog website with react
+### A blog website with react
 
 ### Obs:: In progress
