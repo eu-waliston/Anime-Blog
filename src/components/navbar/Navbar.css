@@ -1,0 +1,35 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: bisque;
+    
+    top: 30px;
+    height: 5vh;
+    align-items: center;
+
+    z-index: 3;
+}
+
+.list--itens {
+    display: flex;
+    column-gap: 20px;
+}
+.list-iten {
+    list-style: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.search input {
+    height: 25px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+::placeholder {
+    text-align: center;
+}
+
