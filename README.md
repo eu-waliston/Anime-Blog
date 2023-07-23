@@ -20,10 +20,11 @@ Este é o repositório do meu blog desenvolvido com React, uma biblioteca JavaSc
 ## algumas das tecnologias que vão ser utilizadas no projeto
 ### No Front:
   - ReactJs
-  - Styled Components
   - React icons
-  - Font Aweasome
   - Scss
+  - Swiper
+  - React Forms
+  - Google Fonts
 
 ### No Back:
   - NodeJs
