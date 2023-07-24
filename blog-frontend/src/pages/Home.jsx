@@ -6,7 +6,7 @@ import Trending from "../components/Trending/Trending";
 const Home = () => {
   return (
     <div className="home">
-      <div className="home--section">
+      <div className="home--section" id="home">
         <div className="home--text">
           <h1>Últimos Artigos</h1>
           <p>
@@ -18,7 +18,7 @@ const Home = () => {
           <HomeBlogs />
         </div>
       </div>
-      <div className="trending-section">
+      <div className="trending-section" id="top">
         <div className="trending--text">
           <h1>Os Mais Vistos</h1>
           <p>
@@ -27,7 +27,7 @@ const Home = () => {
         </div>
         < Trending/>
       </div>
-      <div className="library-section"></div>
+      <div className="library-section" id="articles"></div>
       <div className="other-blogs-section"></div>
       <div className="footer-section"></div>
     </div>

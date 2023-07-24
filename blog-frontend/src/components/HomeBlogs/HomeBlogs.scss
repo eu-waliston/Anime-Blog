@@ -52,15 +52,20 @@
             border-radius: 10px;
             border: none;
             font-weight: bold;
-            color: $btn-color;
+            background-color: $master-color;
+            color: $text-color;
             text-align: center;
             text-transform: uppercase;
+            &:hover {
+                cursor: pointer;
+                transition: .8s;
+                background-color: $btn-color;
+            }
 
             .HB-icon {
-                font-size: 1rem;
                 position: relative;
-                top: 4px;
-                margin-left: 10px;
+                top: 2px;
+                margin-left: 15px;
             }
         }
     }

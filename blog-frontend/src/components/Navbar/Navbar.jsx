@@ -12,10 +12,12 @@ const Navbar = () => {
             </div>
             <div className="nav--section">
                 <div className="navs">
-                <Link className="nav" >Inicio</Link>
+                <a className="nav" href="#home">Inicio</a>
                 <span>|</span>
-                <Link className="nav" >Artigos</Link>
-                
+                <a className="nav" href="#top">Top 🔥</a>
+                <span>|</span>
+                <a className="nav" href="#articles">Artigos</a>
+
                 </div>
                 <div className="input--section">
                     <  AiOutlineSearch  className="input-icon"/>

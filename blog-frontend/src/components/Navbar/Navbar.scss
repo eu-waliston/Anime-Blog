@@ -26,15 +26,16 @@
     }
 
     .members-area {
-      background-color: $text-color;
-      color: $btn-color;
-      padding: 10px;
+      background-color: $master-color;
+      color: $text-color;
+      padding: 15px;
       border-radius: 10px;
       text-decoration: none;
       font-weight: 700;
       &:hover {
+        cursor: pointer;
         transition: 0.8s;
-        opacity: 0.9;
+        background-color: $btn-color;
       }
     }
 
@@ -47,7 +48,7 @@
         margin-right: 5px;
 
         &:hover {
-            color: $master-color;
+          color: $master-color;
         }
       }
 
@@ -57,7 +58,7 @@
     }
 
     .input--section {
-      border-bottom: 3px solid $text-color;
+      border-bottom: 3px solid $master-color;
 
       .input-icon {
         font-weight: bolder;
