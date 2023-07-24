@@ -36,7 +36,14 @@ const Home = () => {
         </div>
         <BlogGalery />
       </div>
-      <div className="other-blogs-section" id="others"></div>
+      <div className="other-blogs-section" id="others">
+      <div className="other-blogs--text">
+          <h1>Outros Artigos</h1>
+          <p>
+            Aqui estão outros topicos muito interessantes que foram publicados em nosso blog.
+          </p>
+        </div>
+      </div>
       <div className="footer-section"></div>
     </div>
   );
