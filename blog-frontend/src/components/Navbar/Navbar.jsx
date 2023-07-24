@@ -16,7 +16,7 @@ const Navbar = () => {
                 <span className="separator">|</span>
                 <a className="nav" href="#top">Mais Votados 🔥</a>
                 <span>|</span>
-                <a className="nav" href="#articles">Artigos</a>
+                <a className="nav" href="#articles">Galeria</a>
                 <span>|</span>
                 <a className="nav" href="#others">Outros</a>
                 </div>
