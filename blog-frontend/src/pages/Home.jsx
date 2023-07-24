@@ -28,7 +28,7 @@ const Home = () => {
         < Trending/>
       </div>
       <div className="library-section" id="articles"></div>
-      <div className="other-blogs-section"></div>
+      <div className="other-blogs-section" id="others"></div>
       <div className="footer-section"></div>
     </div>
   );
