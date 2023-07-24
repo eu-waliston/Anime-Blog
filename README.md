@@ -37,3 +37,6 @@ Este é o repositório do meu blog desenvolvido com React, uma biblioteca JavaSc
 
 ### Hospedagem:
   - vercel
+
+### LINKS:
+ - front (Vercel) https://anime-blog-two.vercel.app/
