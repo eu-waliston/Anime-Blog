@@ -19,7 +19,7 @@ const HomeBlogs = () => {
   return (
     <div className="homeblogs--component">
       <Swiper
-        // install Swiper modules
+
         modules={[A11y, Autoplay]}
         spaceBetween={30}
         slidesPerView={1}

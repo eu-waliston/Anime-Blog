@@ -6,3 +6,24 @@
   scroll-behavior: smooth;
   font-family: $default-font;
 }
+
+//Scroll bar customized
+
+// Width
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+// Track
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+// Handle
+::-webkit-scrollbar-thumb {
+  background: #e22323;
+  border-radius: 10px;
+  &:hover {
+    background: rgb(172, 33, 33)323;
+  } 
+}
