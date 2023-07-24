@@ -1,0 +1,68 @@
+@import "../../utilities/variables.scss";
+
+.swiper {
+    height: 60vh !important;
+}
+
+.styles {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+    position: relative;
+    gap: 50px;
+
+    background-color: rgba(0, 0, 0, 0.116);
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.301);
+
+    .HB-info-1 {
+        p {
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .HB-img {
+            max-width: 100%;
+            width: 600px;
+            border-radius: 5px;
+        }
+
+
+    } 
+
+    .HB-info-2 {
+        width: 40%;
+        h2 {
+            color: #fff;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #fff;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .HB-btn {
+            margin-top: 20px;
+            width: 150px;
+            height: 50px;
+            border-radius: 10px;
+            border: none;
+            font-weight: bold;
+            color: $btn-color;
+            text-align: center;
+            text-transform: uppercase;
+
+            .HB-icon {
+                font-size: 1rem;
+                position: relative;
+                top: 4px;
+                margin-left: 10px;
+            }
+        }
+    }
+
+}
+
