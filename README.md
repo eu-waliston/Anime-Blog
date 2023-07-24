@@ -1,5 +1,4 @@
-![Screenshot from 2023-07-23 22-22-06](https://github.com/wal-wizard/React-Blog/assets/82295321/e9865b9f-4f2f-4087-89a9-ad52ca66a42f)
-
+![Screenshot from 2023-07-23 22-27-05](https://github.com/wal-wizard/Anime-Blog/assets/82295321/c716f952-242f-4a6c-8add-ea65d077f6e8)
 
 
 
