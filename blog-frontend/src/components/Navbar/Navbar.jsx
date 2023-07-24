@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div className="navbar--component">
             <div className="logo--section">
-                <h1>React Blog</h1>
+                <h1>Anime Blog</h1>
                 <Link className="members-area">Area de Membros</Link>
             </div>
             <div className="nav--section">
