@@ -1,4 +1,5 @@
-![5180211](https://github.com/wal-wizard/React-Blog/assets/82295321/87dcacc7-8c47-4e00-a319-a9c390d02e56)
+![Screenshot from 2023-07-23 22-22-06](https://github.com/wal-wizard/React-Blog/assets/82295321/e9865b9f-4f2f-4087-89a9-ad52ca66a42f)
+
 
 
 
@@ -36,3 +37,6 @@ Este é o repositório do meu blog desenvolvido com React, uma biblioteca JavaSc
 
 ### Hospedagem:
   - vercel
+
+### LINKS:
+ - front (Vercel) https://anime-blog-two.vercel.app/
