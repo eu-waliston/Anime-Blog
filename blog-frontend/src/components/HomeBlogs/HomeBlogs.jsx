@@ -32,7 +32,7 @@ const HomeBlogs = () => {
           </div  >
           <div className="HB-info-2">
             <h2>
-              Mangás e Novels a metade do preço! – Dicas de compra IntoxiAnime
+              Mangás e Novels a metade do preço! – Dicas de compra
             </h2>
             <p>
               Lista de mangás BR na Amazon com descontos muito bons da
