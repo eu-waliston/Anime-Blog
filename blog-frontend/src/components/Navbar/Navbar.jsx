@@ -12,9 +12,9 @@ const Navbar = () => {
             </div>
             <div className="nav--section">
                 <div className="navs">
-                <a className="nav" href="#home">Inicio</a>
+                <a className="nav" href="#home">  Inicio</a>
                 <span className="separator">|</span>
-                <a className="nav" href="#top">Top 🔥</a>
+                <a className="nav" href="#top">Mais Votados 🔥</a>
                 <span>|</span>
                 <a className="nav" href="#articles">Artigos</a>
                 <span>|</span>
