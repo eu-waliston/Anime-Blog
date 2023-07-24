@@ -1,0 +1,72 @@
+@import "../../utilities/variables.scss";
+
+.BG--component {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  position: relative;
+  top: 25%;
+
+  .BG--section-1 {
+    width: 50%;
+    .BG-date {
+      font-weight: bolder;
+      margin-bottom: 10px;
+      color: $text-color;
+    }
+    .BG-img-1 {
+      width: 700px;
+      border-radius: 10px;
+    }
+
+    .BG-title {
+      font-size: 1.9rem;
+      color: $text-color;
+      margin-top: 10px;
+    }
+
+    .BG-subtitle {
+      font-size: 0.9rem;
+      color: $text-color;
+      margin-top: 10px;
+    }
+  }
+
+  .BG--section-2 {
+    width: 50%;
+    position: relative;
+    top: 40px;
+    .itens-flex {
+        display: flex;
+        text-align: left;
+    }
+  
+    .BG-date {
+      font-weight: bolder;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: $text-color;
+    }
+    .BG-img {
+      width: 300px;
+      border-radius: 10px;
+    }
+
+    .BG-title {
+      font-size: 1.2rem;
+      color: $text-color;
+      margin-top: 35px;
+      margin-left: 20px;
+    }
+
+    .BG-subtitle {
+      font-size: 0.9rem;
+      color: $text-color;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+  }
+}
