@@ -43,12 +43,6 @@
   height: 100vh;
   background-color: $background-site;
 }
-.footer-section {
-  width: 100%;
-  height: 40vh;
-  background-color: $background-site;
-  border-top: 1px solid $text-color;
-}
 
 .trending-section {
   .trending--text {
@@ -116,6 +110,7 @@
 }
 
 .other-blogs-section {
+  height: 150vh;
   .other-blogs--text {
     text-align: left;
     position: relative;
@@ -138,3 +133,8 @@
   }
 }
 
+.footer-section {
+  width: 100%;
+  height: 15vh;
+  background-color: $master-color;
+}

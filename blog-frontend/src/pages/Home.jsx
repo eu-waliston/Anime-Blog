@@ -3,6 +3,8 @@ import "./Home.scss";
 import HomeBlogs from "../components/HomeBlogs/HomeBlogs";
 import Trending from "../components/Trending/Trending";
 import BlogGalery from "../components/BlogGalery/BlogGalery";
+import OtherBlogs from "../components/OtherBlogs/OtherBlogs";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -38,14 +40,18 @@ const Home = () => {
         <BlogGalery />
       </div>
       <div className="other-blogs-section" id="others">
-      <div className="other-blogs--text">
+        <div className="other-blogs--text">
           <h1>Outros Artigos</h1>
           <p>
-            Aqui estão outros topicos muito interessantes que foram publicados em nosso blog.
+            Aqui estão outros topicos muito interessantes que foram publicados
+            em nosso blog.
           </p>
         </div>
+        <OtherBlogs />
       </div>
-      <div className="footer-section"></div>
+      <div className="footer-section">
+        <Footer />
+      </div>
     </div>
   );
 };

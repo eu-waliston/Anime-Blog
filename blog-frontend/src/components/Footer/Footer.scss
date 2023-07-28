@@ -1,0 +1,45 @@
+@import "../../utilities/variables.scss";
+
+.footer__section {
+    position: relative;
+    top: 20%;
+  .social {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .social-text {
+      color: $text-color;
+      font-size: 2rem;
+    }
+    .social-medias {
+      font-size: 2.3rem;
+      display: flex;
+      gap: 30px;
+      position: relative;
+      top: 20px;
+      color: $text-color;
+
+      &:hover {
+        transition: .8s;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .dev--section {
+    .dev {
+         color: $text-color;
+        margin-bottom: 10px;
+        text-transform: lowercase;
+        font-size: 1.2rem; 
+        #span {
+            font-weight: bolder;
+        }
+    }
+    .hub {
+        font-size: 2rem;
+         color: $text-color;
+        cursor: pointer;
+    }
+  }
+}
