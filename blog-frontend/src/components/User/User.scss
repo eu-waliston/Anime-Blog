@@ -1,0 +1,185 @@
+@import "../../utilities/variables.scss";
+
+.Login__Component,
+.Register__Component,
+.Recover__Component {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../public/images/background.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  align-content: center;
+}
+
+.Login__Component {
+  .form__cp {
+    width: 40%;
+    height: 70vh;
+
+    background-color: $master-color;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    box-shadow: 5px 5px 45px rgba(145, 144, 144, 0.23);
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    h1 {
+      color: $text-color;
+      position: relative;
+      top: -20px;
+    }
+
+    form {
+      display: grid;
+      p {
+        margin-top: 30px;
+        color: $text-color;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      .input {
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+      }
+
+      .btn {
+        margin-top: 30px;
+        height: 40px;
+        width: 120px;
+        position: relative;
+        border: none;
+        border-radius: 10px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        &:hover {
+          transition: 0.9s;
+          opacity: 0.9;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.Register__Component {
+  .form__cp {
+    width: 40%;
+    height: 70vh;
+
+    background-color: $master-color;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    box-shadow: 5px 5px 45px rgba(145, 144, 144, 0.23);
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    h1 {
+      color: $text-color;
+      position: relative;
+      top: -10px;
+    }
+
+    form {
+      display: grid;
+      p {
+        margin-top: 30px;
+        color: $text-color;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      .input {
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+      }
+
+      .btn {
+        margin-top: 30px;
+        height: 40px;
+        width: 120px;
+        position: relative;
+        border: none;
+        border-radius: 10px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        &:hover {
+          transition: 0.9s;
+          opacity: 0.9;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.Recover__Component {
+  .form__cp {
+    width: 40%;
+    height: 70vh;
+
+    background-color: $master-color;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    box-shadow: 5px 5px 45px rgba(145, 144, 144, 0.23);
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    h1 {
+      color: $text-color;
+      position: relative;
+      top: -10px;
+    }
+
+    form {
+      display: grid;
+      p {
+        margin-top: 30px;
+        color: $text-color;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      .input {
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+      }
+
+      .btn {
+        margin-top: 30px;
+        height: 40px;
+        width: 120px;
+        position: relative;
+        border: none;
+        border-radius: 10px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        &:hover {
+          transition: 0.9s;
+          opacity: 0.9;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
