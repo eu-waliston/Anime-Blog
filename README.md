@@ -2,7 +2,7 @@
 
 
 
-# Blog com React
+# Anime Blog com React
 Este é o repositório do meu blog desenvolvido com React, uma biblioteca JavaScript amplamente utilizada para criação de interfaces de usuário dinâmicas e interativas. Neste projeto, explorei minhas habilidades em desenvolvimento front-end e back-end e ciarei um blog com o objetivo de compartilhar meus conhecimentos e experiências com o mundo.
 
 ## Funcionalidades Principais
