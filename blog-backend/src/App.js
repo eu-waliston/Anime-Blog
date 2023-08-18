@@ -14,7 +14,12 @@ App.use(express.urlencoded({ extended: true }));
 App.use(cors());
 App.use(helmet());
 
-// TODO Routes
+//Routes
+const UserRouter = require("./View/User.View");
+const PostRouter = require("./View/Post.View");
+
+App.use("/", UserRouter);
+App.use("/", PostRouter);
 
 //Server Start
 App.listen(process.env.PORT, () => {
