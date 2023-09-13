@@ -1,7 +1,6 @@
 const express = require("express");
 const cors = require("cors");
 const helmet = require("helmet");
-require("dotenv").config();
 
 const App = express();
 
@@ -22,6 +21,7 @@ App.use("/", UserRouter);
 App.use("/", PostRouter);
 
 //Server Start
-App.listen(process.env.PORT, () => {
-  console.log(`Server running on PORT ${process.env.PORT}`);
+const PORT = 8000;
+App.listen(PORT, () => {
+  console.log(`Server running on PORT ${PORT}`);
 });
