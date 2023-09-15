@@ -23,7 +23,7 @@ const Trending = () => {
     <div className="trending--section">
       <Swiper
         modules={[A11y]}
-        spaceBetween={30}
+        spaceBetween={10}
         slidesPerView={3}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
