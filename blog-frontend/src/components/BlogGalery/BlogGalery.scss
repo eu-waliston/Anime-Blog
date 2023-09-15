@@ -18,18 +18,18 @@
       color: $text-color;
     }
     .BG-img-1 {
-      width: 700px;
+      width: 500px;
       border-radius: 10px;
     }
 
     .BG-title {
-      font-size: 1.9rem;
+      font-size: 1.5rem;
       color: $text-color;
       margin-top: 10px;
     }
 
     .BG-subtitle {
-      font-size: 0.9rem;
+      font-size: .8rem;
       color: $text-color;
       margin-top: 10px;
     }
@@ -38,7 +38,7 @@
   .BG--section-2 {
     width: 50%;
     position: relative;
-    top: 40px;
+    top: 5px;
     .itens-flex {
         display: flex;
         text-align: left;

@@ -43,23 +43,6 @@ const BlogGalery = () => {
             </p>
           </div>
         </div>
-        <div className="itens-flex">
-          <div>
-            {" "}
-            <p className="BG-date">JULHO 20, 2023</p>
-            <img src="./images/galery-3.jpg" alt="galeria" className="BG-img" />
-          </div>
-          <div>
-            {" "}
-            <h1 className="BG-title">
-              10 Animes de Ação com Romance que o casal namora
-            </h1>
-            <p className="BG-subtitle">
-              Hora de animes de ação com romance que não enrolam o romance (aka
-              “que o casal namora”)! Esse é um...
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );
