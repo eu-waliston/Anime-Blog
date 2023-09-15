@@ -31,10 +31,11 @@
     .members-area {
       background-color: $master-color;
       color: $text-color;
-      padding: 15px;
+      padding: 10px;
       border-radius: 10px;
       text-decoration: none;
-      font-weight: 700;
+      font-weight: 500;
+      font-size: .8rem;
       &:hover {
         cursor: pointer;
         transition: 0.8s;
