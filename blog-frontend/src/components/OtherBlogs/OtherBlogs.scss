@@ -2,7 +2,7 @@
 
 .other__blogs__section {
     display: grid;
-    grid-template-columns: repeat(4, 350px);
+    grid-template-columns: repeat(4, 280px);
     align-items: center;
     align-content: center;
     justify-content: space-evenly;
@@ -10,6 +10,8 @@
     top: 18%;
     position: relative;
     margin-left: 20px;
+    height: 150vh;
+
 
     .other {
         .date-cp {
@@ -24,7 +26,7 @@
 
         .names {
             h1 {
-                font-size: 1.5rem;
+                font-size: 1.2rem;
                 margin-top: 10px;
                 margin-bottom: 10px;
                 color: $text-color;
@@ -34,15 +36,16 @@
             p {
                 margin-top: 10px;
                 margin-bottom: 10px;
-                color: $text-color; 
+                color: $text-color;
+                font-size: .8rem; 
             }
         }
 
         .more {
             .more__btn {
                 background-color: $master-color;
-                padding: 13px;
                 position: relative;
+                padding: 5px;
                 top: 13px;
                 border-radius: 10px;
                 text-decoration: none;
@@ -50,6 +53,8 @@
                 text-transform: uppercase;
                 margin-bottom: 10px;
                 font-weight: bold;
+                font-size: .9rem;
+                font-weight: 300;
 
                 &:hover {
                     transition: .8s;
@@ -64,6 +69,4 @@
             }
         }
     }
-
-    
 }

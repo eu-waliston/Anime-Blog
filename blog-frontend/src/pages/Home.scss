@@ -82,9 +82,9 @@
     border-radius: 10px;
     &:hover {
       cursor: pointer;
-      transition: .8s;
+      transition: 0.8s;
       background-color: $btn-color;
-      box-shadow: 5px 5px 100px rgba(61, 61, 61, 0.096) ;
+      box-shadow: 5px 5px 100px rgba(61, 61, 61, 0.096);
     }
   }
   .galery--text {
@@ -116,7 +116,7 @@
     text-align: left;
     position: relative;
     margin-left: 100px;
-    top: 200px;
+    top: 150px;
     border-left: 10px solid $master-color;
     height: 100px;
 

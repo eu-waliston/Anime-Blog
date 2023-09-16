@@ -7,6 +7,7 @@ import Rate from "../Rate/Rate";
 const OtherBlogs = () => {
   return (
     <div className="other__blogs__section">
+      
       <div className="other">
         <p className="date-cp" >FEVEREIRO 22, 2023</p>
         <img src="./images/outros-1.jpg" alt="recomendações de mangas" />
