@@ -9,10 +9,10 @@
     align-items: center;
     .social-text {
       color: $text-color;
-      font-size: 2rem;
+      font-size: 1rem;
     }
     .social-medias {
-      font-size: 2.3rem;
+      font-size: 1.2rem;
       display: flex;
       gap: 30px;
       position: relative;
@@ -31,13 +31,13 @@
          color: $text-color;
         margin-bottom: 10px;
         text-transform: lowercase;
-        font-size: 1.2rem; 
+        font-size: 1rem; 
         #span {
             font-weight: bolder;
         }
     }
     .hub {
-        font-size: 2rem;
+        font-size: 1rem;
          color: $text-color;
         cursor: pointer;
     }
