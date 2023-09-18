@@ -38,6 +38,7 @@ Este é o repositório do meu blog desenvolvido com React, uma biblioteca JavaSc
   - vercel
   - AWS
   - Render API
+  - AWS S3
 
 ### LINKS:
  - Front (Vercel) https://anime-blog-two.vercel.app/
