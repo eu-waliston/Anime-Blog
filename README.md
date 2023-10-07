@@ -31,7 +31,6 @@ Este é o repositório do meu blog desenvolvido com React, uma biblioteca JavaSc
   - Express
   - Helmet
   - Passport
-  - MongoDB
   - Mongoose
 
 ### Hospedagem:
