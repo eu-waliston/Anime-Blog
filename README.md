@@ -25,7 +25,6 @@ Este é o repositório do meu blog desenvolvido com React, uma biblioteca JavaSc
   - Swiper
   - React Forms
   - Google Fonts 
-  - JS 
 
 ### No Back:
   - NodeJs
