@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./User.scss";
+import "./user.css";
 
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
@@ -20,7 +20,6 @@ const Register = () => {
 
   console.log(watch("example"));
 
-
   const handleClick = () => {
     if (password) {
       navigate("/");
@@ -30,7 +29,6 @@ const Register = () => {
   const handleChange = (event) => {
     setPassword(event.target.value);
   };
-
 
   return (
     <div className="Register__Component">
@@ -72,7 +70,9 @@ const Register = () => {
             type="date"
           />
 
-          <button className="btn" onClick={handleClick}>cadastrar</button>
+          <button className="btn" onClick={handleClick}>
+            cadastrar
+          </button>
           <p></p>
         </form>
       </div>

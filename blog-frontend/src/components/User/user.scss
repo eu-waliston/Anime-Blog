@@ -1,0 +1,186 @@
+:root {
+  --master-color: #946c25;
+  --text-color: #fff;
+  --default-font: "Montserrat", sans-serif;
+  --btn-color: #dd9c22;
+  --background-site: #292929;
+}
+
+.Login__Component,
+.Register__Component,
+.Recover__Component {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../public/images/background.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  align-content: center;
+}
+
+.Login__Component .form__cp {
+  width: 40%;
+  height: 70vh;
+
+  background-color: $master-color;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  box-shadow: 5px 5px 45px rgba(145, 144, 144, 0.23);
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.form__cp h1 {
+  color: $text-color;
+  position: relative;
+  top: -20px;
+}
+
+.form__cp form {
+  display: grid;
+}
+form p {
+  margin-top: 30px;
+  color: $text-color;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+form .input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+}
+
+form .btn {
+  margin-top: 30px;
+  height: 30px;
+  width: 100px;
+  position: relative;
+  border: none;
+  border-radius: 10px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+form .btn:hover {
+  transition: 0.9s;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.Register__Component .form__cp {
+  width: 40%;
+  height: 70vh;
+
+  background-color: $master-color;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  box-shadow: 5px 5px 45px rgba(145, 144, 144, 0.23);
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.form__cp h1 {
+  color: $text-color;
+  position: relative;
+  top: 15px;
+  font-size: 1.5rem;
+}
+
+.form__cp form {
+  display: grid;
+}
+.form__cp form p {
+  margin-top: 30px;
+  color: $text-color;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+form__cp form .input {
+  width: 250px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+}
+
+form__cp form .btn {
+  margin-top: 30px;
+  height: 30px;
+  width: 100px;
+  position: relative;
+  border: none;
+  border-radius: 10px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+form__cp form .btn:hover {
+  transition: 0.9s;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.Recover__Component .form__cp {
+  width: 40%;
+  height: 70vh;
+
+  background-color: $master-color;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  box-shadow: 5px 5px 45px rgba(145, 144, 144, 0.23);
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.Recover__Component .form__cp h1 {
+  color: $text-color;
+  position: relative;
+  top: -10px;
+}
+
+.Recover__Component .form__cp form {
+  display: grid;
+}
+
+.Recover__Component .form__cp form p {
+  margin-top: 30px;
+  color: $text-color;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.Recover__Component .form__cp form .input {
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+}
+
+.Recover__Component .form__cp form .btn {
+  margin-top: 30px;
+  height: 40px;
+  width: 120px;
+  position: relative;
+  border: none;
+  border-radius: 10px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.Recover__Component .form__cp form .btn:hover {
+  transition: 0.9s;
+  opacity: 0.9;
+  cursor: pointer;
+}

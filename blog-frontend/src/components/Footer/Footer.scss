@@ -1,4 +1,10 @@
-@import "../../utilities/variables.scss";
+:root {
+  --master-color: #946c25;
+  --text-color: #fff;
+  --default-font: "Montserrat", sans-serif;
+  --btn-color: #dd9c22;
+  --background-site: #292929;
+}
 
 .footer__section {
     position: relative;

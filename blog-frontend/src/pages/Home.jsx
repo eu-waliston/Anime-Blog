@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.scss";
+import "./Home.css";
 import HomeBlogs from "../components/HomeBlogs/HomeBlogs";
 import Trending from "../components/Trending/Trending";
 import BlogGalery from "../components/BlogGalery/BlogGalery";
