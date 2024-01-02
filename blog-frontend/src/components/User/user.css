@@ -26,7 +26,7 @@
   width: 40%;
   height: 70vh;
 
-  background-color: $master-color;
+  background-color: --master-color;
   border-top-left-radius: 200px;
   border-bottom-left-radius: 200px;
   box-shadow: 5px 5px 45px rgba(145, 144, 144, 0.23);
@@ -37,7 +37,7 @@
   align-content: center;
 }
 .form__cp h1 {
-  color: $text-color;
+  color: --text-color;
   position: relative;
   top: -20px;
 }
@@ -47,7 +47,7 @@
 }
 form p {
   margin-top: 30px;
-  color: $text-color;
+  color: --text-color;
   font-weight: 600;
   margin-bottom: 5px;
 }
@@ -80,7 +80,7 @@ form .btn:hover {
   width: 40%;
   height: 70vh;
 
-  background-color: $master-color;
+  background-color: --master-color;
   border-top-left-radius: 200px;
   border-bottom-left-radius: 200px;
   box-shadow: 5px 5px 45px rgba(145, 144, 144, 0.23);
@@ -91,7 +91,7 @@ form .btn:hover {
   align-content: center;
 }
 .form__cp h1 {
-  color: $text-color;
+  color: --text-color;
   position: relative;
   top: 15px;
   font-size: 1.5rem;
@@ -102,7 +102,7 @@ form .btn:hover {
 }
 .form__cp form p {
   margin-top: 30px;
-  color: $text-color;
+  color: --text-color;
   font-weight: 600;
   margin-bottom: 5px;
 }
@@ -134,7 +134,7 @@ form__cp form .btn:hover {
   width: 40%;
   height: 70vh;
 
-  background-color: $master-color;
+  background-color: --master-color;
   border-top-left-radius: 200px;
   border-bottom-left-radius: 200px;
   box-shadow: 5px 5px 45px rgba(145, 144, 144, 0.23);
@@ -145,7 +145,7 @@ form__cp form .btn:hover {
   align-content: center;
 }
 .Recover__Component .form__cp h1 {
-  color: $text-color;
+  color: --text-color;
   position: relative;
   top: -10px;
 }
@@ -156,7 +156,7 @@ form__cp form .btn:hover {
 
 .Recover__Component .form__cp form p {
   margin-top: 30px;
-  color: $text-color;
+  color: --text-color;
   font-weight: 600;
   margin-bottom: 5px;
 }
