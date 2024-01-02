@@ -1,5 +1,5 @@
 import React from "react";
-import "./OtherBlogs.scss";
+import "./otherblogs.css";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 import Rate from "../Rate/Rate";

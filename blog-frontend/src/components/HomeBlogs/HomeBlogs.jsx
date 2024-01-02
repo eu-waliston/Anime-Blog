@@ -1,5 +1,5 @@
 import React from "react";
-import "./HomeBlogs.scss";
+import "./homeblogs.css";
 
 // import Swiper core and required modules
 import { A11y, Autoplay } from "swiper/modules";

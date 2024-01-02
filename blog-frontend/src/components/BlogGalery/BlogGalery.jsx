@@ -1,5 +1,5 @@
 import React from "react";
-import "./BlogGalery.scss";
+import "./bloggalery.css";
 
 const BlogGalery = () => {
   return (
