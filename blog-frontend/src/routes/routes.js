@@ -1,10 +1,11 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "../pages/Home";
+
 
 import Login from "../components/User/Login";
 import Recover from "../components/User/Recover";
 import Register from "../components/User/Register";
 import Navbar from "../components/Navbar/Navbar";
+import Home from "../components/Home/Home";
 
 const AllRoutes = () => {
   return (

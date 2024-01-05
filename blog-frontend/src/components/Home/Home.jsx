@@ -1,9 +1,10 @@
 import React from "react";
-import HomeBlogs from "../components/HomeBlogs/HomeBlogs";
-import Trending from "../components/Trending/Trending";
-import BlogGalery from "../components/BlogGalery/BlogGalery";
-import OtherBlogs from "../components/OtherBlogs/OtherBlogs";
-import Footer from "../components/Footer/Footer";
+import HomeBlogs from "../HomeBlogs/HomeBlogs";
+import Trending from "../Trending/Trending";
+import BlogGalery from "../BlogGalery/BlogGalery";
+import OtherBlogs from "../OtherBlogs/OtherBlogs";
+import Footer from "../Footer/Footer";
+import "./Home.css";
 
 const Home = () => {
   return (
