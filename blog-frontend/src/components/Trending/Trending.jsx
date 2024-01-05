@@ -1,5 +1,5 @@
 import React from "react";
-import "./trending.css";
+
 
 // import Swiper core and required modules
 import { A11y } from "swiper/modules";
