@@ -1,25 +1,23 @@
 import React from "react";
 
-
-// import Swiper core and required modules
+//Swipper
 import { A11y, Autoplay } from "swiper/modules";
-
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/effect-fade";
 
+//Icons
 import { AiOutlineArrowRight } from "react-icons/ai";
+
+import "./HomeBlogs.css";
 
 const HomeBlogs = () => {
   return (
     <div className="homeblogs--component">
       <Swiper
-
         modules={[A11y, Autoplay]}
         spaceBetween={30}
         slidesPerView={1}
