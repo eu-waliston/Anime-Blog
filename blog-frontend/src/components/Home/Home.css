@@ -1,15 +1,20 @@
 /* ----------General Settings ----------- */
 .home--section,
 .trending-section,
-.galery-section,
-.other-blogs-section {
+.galery-section
+{
   width: 100%;
   height: 100vh;
 }
 
+.other-blogs-section {
+  width: 100%;
+  height: 150vh;
+}
+
 .footer-section {
   width: 100%;
-  height: 40vh;
+  height: 15vh;
 }
 
 :root {

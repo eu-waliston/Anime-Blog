@@ -1,4 +1,5 @@
 import React from "react";
+import "./OtherBlogs.css"
 
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
@@ -26,9 +27,11 @@ const OtherBlogs = () => {
         </div>
         <div className="more">
           <Rate />
-          <Link className="more__btn">
-            Ler Mais <BsArrowRight className="arrow-icon"/>{" "}
-          </Link>
+          <div className="btn-div">
+            <Link className="more__btn">
+              Ler Mais <BsArrowRight className="arrow-icon"/>{" "}
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -47,9 +50,12 @@ const OtherBlogs = () => {
         </div>
         <div className="more">
           <Rate />
-          <Link className="more__btn">
-            Ler Mais <BsArrowRight className="arrow-icon"/>{" "}
-          </Link>
+          <div className="btn-div">
+
+            <Link className="more__btn">
+              Ler Mais <BsArrowRight className="arrow-icon"/>{" "}
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -71,9 +77,12 @@ const OtherBlogs = () => {
         </div>
         <div className="more">
           <Rate />
-          <Link className="more__btn">
-            Ler Mais <BsArrowRight className="arrow-icon"/>{" "}
-          </Link>
+          <div className="btn-div">
+
+            <Link className="more__btn">
+              Ler Mais <BsArrowRight className="arrow-icon"/>{" "}
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -96,9 +105,12 @@ const OtherBlogs = () => {
         </div>
         <div className="more">
           <Rate />
-          <Link className="more__btn">
-            Ler Mais <BsArrowRight className="arrow-icon"/>{" "}
-          </Link>
+          <div className="btn-div">
+
+            <Link className="more__btn">
+              Ler Mais <BsArrowRight className="arrow-icon"/>{" "}
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -117,9 +129,12 @@ const OtherBlogs = () => {
         </div>
         <div className="more">
           <Rate />
-          <Link className="more__btn">
-            Ler Mais <BsArrowRight className="arrow-icon"/>{" "}
-          </Link>
+          <div className="btn-div">
+          
+            <Link className="more__btn">
+              Ler Mais <BsArrowRight className="arrow-icon"/>{" "}
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -138,9 +153,12 @@ const OtherBlogs = () => {
         </div>
         <div className="more">
           <Rate />
-          <Link className="more__btn">
-            Ler Mais <BsArrowRight className="arrow-icon"/>{" "}
-          </Link>
+          <div className="btn-div">
+
+            <Link className="more__btn">
+              Ler Mais <BsArrowRight className="arrow-icon"/>{" "}
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -162,9 +180,11 @@ const OtherBlogs = () => {
         </div>
         <div className="more">
           <Rate />
-          <Link className="more__btn">
-            Ler Mais <BsArrowRight className="arrow-icon"/>{" "}
-          </Link>
+          <div className="btn-div">
+            <Link className="more__btn">
+              Ler Mais <BsArrowRight className="arrow-icon"/>{" "}
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -183,9 +203,11 @@ const OtherBlogs = () => {
         </div>
         <div className="more">
           <Rate />
-          <Link className="more__btn">
-            Ler Mais <BsArrowRight className="arrow-icon"/>{" "}
-          </Link>
+          <div className="btn-div">
+            <Link className="more__btn">
+              Ler Mais <BsArrowRight className="arrow-icon"/>{" "}
+            </Link>
+          </div>
         </div>
       </div>
     </div>

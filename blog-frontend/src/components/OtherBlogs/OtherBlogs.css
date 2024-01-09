@@ -1,0 +1,43 @@
+.other__blogs__section {
+    display: grid;
+    grid-template-columns: repeat(4, 380px);
+    gap: 50px;
+
+    position: relative;
+    margin-left: 150px;
+
+    top: 180px;
+}
+
+.date-cp {
+    color: whitesmoke;
+    font-weight: bolder;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.other img {
+    width: 340px;
+}
+
+
+.names h1 {
+    font-size: 1.3rem;
+    color: whitesmoke;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-div {
+    position: relative;
+    margin-top: 20px;
+}
+.more__btn {
+    text-decoration: none;
+    background-color: whitesmoke;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
