@@ -1,0 +1,9 @@
+.rate {
+    position: relative;
+    top: 5px;
+}
+
+.rate-star {
+    font-size: 1.7rem;
+    color: red;
+}

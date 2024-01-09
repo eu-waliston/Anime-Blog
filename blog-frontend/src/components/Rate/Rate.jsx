@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Rate.css"
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
 const Rate = () => {
