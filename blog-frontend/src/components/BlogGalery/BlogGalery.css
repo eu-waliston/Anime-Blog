@@ -1,0 +1,48 @@
+.BG--component {
+  display: flex;
+  position: relative;
+  top: 210px;
+  margin-left: 150px;
+}
+.BG--section-1 {
+    width: 50%;
+}
+.BG--section-1 .BG-date{
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 10px;
+}
+.BG--section-1 .BG-img-1{
+    width: 800px;
+}
+.BG--section-1 .BG-title{
+    color: whitesmoke;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.BG--section-1 .BG-subtitle{
+    font-size: 1rem;
+}
+
+.BG--section-2 {
+    width: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+.BG--section-2 .BG-date{
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 10px;
+}
+.BG--section-2 .BG-img{
+    width: 285px;
+}
+.BG--section-2 .BG-title{
+    font-size: 1rem;
+    color: whitesmoke;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

@@ -35,7 +35,7 @@ const Home = () => {
             Os Artigos mais vontados, mais comentados e compartilhados estão
             organizados aqui na galeria
           </p>
-          <button className="galery-btn">Ver todos</button>
+
         </div>
         <BlogGalery />
       </div>
