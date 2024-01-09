@@ -27,10 +27,6 @@ const Navbar = () => {
         </div>
       </div>
       <div className="nav--section">
-        <Link to={"/login"} className="members-area">
-          Area de Membros
-        </Link>
-
         <div className="input--section">
           <AiOutlineSearch className="input-icon" />
           <input type="search" className="input" placeholder="Procurar..." />
