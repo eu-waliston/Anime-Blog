@@ -1,0 +1,33 @@
+.tranding{
+    position: relative;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+.date{
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.main-text{
+    color: whitesmoke;
+    font-family: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-ml {
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-ml-link {
+    position: relative;
+    top: 3px;
+    margin-left: 10px;
+
+}

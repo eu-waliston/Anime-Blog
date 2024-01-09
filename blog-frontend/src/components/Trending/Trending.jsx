@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Trending.css";
 
 // import Swiper core and required modules
 import { A11y } from "swiper/modules";
@@ -23,7 +23,7 @@ const Trending = () => {
     <div className="trending--section">
       <Swiper
         modules={[A11y]}
-        spaceBetween={10}
+        spaceBetween={1}
         slidesPerView={3}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
