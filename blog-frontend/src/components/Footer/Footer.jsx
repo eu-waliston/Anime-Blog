@@ -1,6 +1,5 @@
 import React from "react";
-
-
+import "./Footer.css"
 import {
   BsFacebook,
   BsInstagram,
@@ -14,8 +13,8 @@ const Footer = () => {
   return (
     <div className="footer__section">
       <div className="social">
-        <div>
-          <div>
+        <div className="social--media--sec">
+          <div >
             <h1 className="social-text">Nos siga em nossas redes Sociais</h1>
           </div>
           <div className="social-medias">
@@ -30,7 +29,7 @@ const Footer = () => {
           <p className="dev">
             Desenvolvido por <sapn id="span">We Santos</sapn>:
           </p>
-          <BsGithub className="hub" />
+          <a href=""><BsGithub className="hub"  /></a>
         </div>
       </div>
     </div>

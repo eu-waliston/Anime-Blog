@@ -1,0 +1,42 @@
+.social {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.social--media--sec {
+    text-align: center;
+}
+
+.social-medias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 1.6rem;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.dev--section {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+.hub {
+    position: relative;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    margin-top: -4px;
+    text-decoration: none;
+    color: whitesmoke;
+}
